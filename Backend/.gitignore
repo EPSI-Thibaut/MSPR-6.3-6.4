@@ -34,3 +34,20 @@ build/
 
 application.properties
 
+# Fichiers de configuration sensibles
+application-*.properties
+application.yml
+application-*.yml
+
+# Logs Spring Boot
+*.log
+spring.log
+
+# Fichiers de données sensibles
+src/Data/*.csv
+!src/Data/.gitkeep
+
+# Fichiers temporaires
+*.tmp
+*.bak
+

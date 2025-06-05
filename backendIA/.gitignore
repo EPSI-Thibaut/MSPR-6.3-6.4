@@ -40,3 +40,14 @@ docs/_build/
 
 #Ignorer les fichiers de modèle IA générés
 *.pkl
+
+# Données sensibles
+*.csv
+*.json
+data/
+datasets/
+
+# Modèles et checkpoints
+models/
+checkpoints/
+weights/
