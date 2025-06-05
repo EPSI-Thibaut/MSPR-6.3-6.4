@@ -13,12 +13,14 @@ Cette application FLASK PYthon est conçue pour créer un modèle de prédiction
    pip install -r requirements.txt
    ```
 
-3. **Configurer la base de données** (si nécessaire) :
+3. **Configurer la base de données** (si nécessaire)  - Actuellement passer cette étape
    ```bash
    flask db init
    flask db migrate -m "Initial migration"
    flask db upgrade
    ```
+4. **Créer un fichier .env sur la base de .env.sample
+```DATABASE_URI=mariadb+pymysql://user:password@localhost:6612/msprdatabase```
 
 4. **Lancer l'application Flask et la route d'entrainement du modèle IA pour le front VUE** :
    ```bash
