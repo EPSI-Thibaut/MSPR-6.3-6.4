@@ -1,0 +1,42 @@
+
+#Ignorer l'environnement virtuel
+env/
+
+#Ignorer les fichiers de configuration locaux
+.env
+
+#Ignorer les fichiers de migration SQLAlchemy
+migrations/versions/*
+
+#Ignorer les fichiers Python compilés
+pycache/
+*.pyc
+*.pyo
+
+#Ignorer les fichiers de log
+*.log
+
+#Ignorer les fichiers de configuration de l'IDE
+.vscode/
+/.history/
+/.vite
+.idea/
+*.suo
+.ntvs
+*.njsproj
+*.sln
+
+#Ignorer les fichiers de sauvegarde et temporaires
+*~
+*.swp
+
+#Ignorer les fichiers de documentation générés
+docs/_build/
+
+#Ignorer les fichiers de test
+.coverage
+.tox/
+.pytest_cache/
+
+#Ignorer les fichiers de modèle IA générés
+*.pkl
